@@ -1,0 +1,59 @@
+<html>
+	<head><title>Primeiro Formulário</title></head>
+	<body>
+		<div>
+			<form action="Formulário2.html" method="get">
+				<fieldset>
+					<legend><b>Informações Pessoais</b></legend>
+					<label for="nome">Seu Nome:</label>
+					<input type="text" id="nome" /><br />
+					<label for="senha">Sua Senha:</label>
+					<input type="password" id="senha" /><br />
+					<label for="email">Digite Seu E-mail:</label>
+					<input type="text" id="email" /><br />
+					<label for="emailconfirm">Confirme o Seu E-mail:</label>
+					<input type="text" id="emailconfirm" /><br />
+				</fieldset>
+				<fieldset>
+					<legend><b>Informações Publicas</b></legend>
+					Seu Sexo: <input type="radio" name="sexo" value="M" /> Masculino
+			    	<input type="radio" name="sexo" value="F" /> Feminino <br />
+					País: <select id="país">
+						<option>Escolha seu País</option><option>África do Sul</option><option>Akrotiri</option><option>Albânia</option><option>Alemanha</option><option>Andorra</option>
+						<option>Angola</option><option>Anguila</option><option>Antárctida</option><option>Antígua</option><option>Barbuda</option><option>Arábia Saudita</option>
+						<option>Arctic Ocean</option><option>Argélia</option><option>Argentina</option><option>Arménia</option><option>Aruba</option><option>Ashmore</option>
+						<option>Cartier Islands</option><option>Atlantic Ocean</option><option>Austrália</option><option>Áustria</option><option>Azerbaijão</option><option>Baamas</option>
+						<option>Bangladeche</option><option>Barbados</option><option>Barém</option><option>Bélgica</option><option>Belize</option><option>Benim</option><option>Bermudas</option>
+						<option>Bielorrússia</option><option>Birmânia</option><option>Bolívia</option><option>Bósnia</option><option>Herzegovina</option><option>Botsuana</option>
+						<option>Brasil</option>
+					</select><br />
+					Data de Nascimento: <select id="Dia">
+						<option>Dia</option><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option>
+						<option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option>
+						<option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option>
+						<option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+					</select>
+					<select id="Mês">
+						<option>Mês</option><option>Janeiro</option><option>Fevereiro</option><option>Março</option><option>Abril</option><option>Maio</option><option>Junho</option>
+						<option>Julho</option><option>Agosto</option><option>Setembro</option><option>Outubro</option><option>Novembro</option><option>Dezembro</option>
+					</select>
+					<select id="Ano">
+						<option>Ano</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option>
+						<option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option>
+						<option>2007</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option>
+						<option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option>
+						</select><br />
+				</fieldset>
+				<fieldset>
+					<legend><b>Trabalhe Conosco</b></legend>
+					Quer trabalhar conosco?Nos envie seu Curriculo.<br /><input type="file" id="curriculo" /><br /><br />
+					Por que quer trabalhar conosco?<br /><textarea cols="30" rows="5">Escreva aqui o seu motivo</textarea><br />
+					<br />
+				</fieldset>
+				<br />
+				<input type="submit" value="Enviar" />
+				<input type="reset" value="Limpar" />
+			</form>
+		</div>
+	</body>
+</html>
